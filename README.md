@@ -18,8 +18,7 @@ Utility for giving books (epub, pdf, txt, etc.) a predictable, descriptive file 
 Suppose you have a file called "The Odyssey (Homer).epub"
 
 ```sh
-# FORMAT: rbook r <INPUT_FILE_PATH> <BOOK TITLE>
-[additional tags]
+# FORMAT: rbook r <INPUT_FILE_PATH> <BOOK TITLE> [additional tags]
 rbook r "The Odyssey (Homer).epub" "The Odyssey" "Homer"
 fantasy mythology greek
 ```
