@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
+	"sort"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -45,6 +46,7 @@ func main() {
 }
 
 func createFileName(title string, author string, tags []string) string {
+	sort.Strings(tags)
 	excludedPunctuationRegexp := regexp.MustCompile("[][{}!@#$%^&*()=+'\"?,.|;:~`‘’“”/]*")
 	var result string
 
