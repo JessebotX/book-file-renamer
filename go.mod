@@ -1,3 +1,3 @@
-module github.com/jessebotx/book-file-renamer
+module github.com/jessebotx/rbook
 
 go 1.20
