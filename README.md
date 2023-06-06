@@ -1,4 +1,4 @@
-# book-file-renamer
+# rbook
 Utility for giving books (epub, pdf, txt, etc.) a predictable, descriptive file name
 
 ## Installation
